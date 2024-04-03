@@ -19,7 +19,7 @@ on:
   # first of the month would be 0 16 1 * *
   # at every 5th minute: /5 * * * *
   # https://crontab.guru/ 
-    - cron: '/1 * * * *'
+    - cron: '*/5 * * * *'
 jobs:
   minutely:
     runs-on: ubuntu-latest
